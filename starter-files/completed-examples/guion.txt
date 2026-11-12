@@ -164,6 +164,29 @@ Guarden su combinación de colores. En la próxima lección vamos a trabajar con
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+Lección 6. ESPACIOS Y TARJETAS: EL DISEÑO TAMBIÉN RESPIRA
+
+BLOQUE A
+Hola de nuevo. Hoy vamos a arreglar una situación muy común: el contenido está, los colores funcionan, pero todo parece demasiado apretado. Es como intentar poner a diez personas en una foto donde solo caben cinco. Antes de cambiar de cámara, quizá conviene darles espacio.
+
+En ce ese ese, los elementos se organizan mediante cajas. Para entender una caja distinguimos el contenido, el relleno interior, el borde y el margen exterior. Esta idea se conoce como el modelo de caja.
+
+El contenido es el texto, la imagen o lo que haya dentro. Padding es el espacio entre ese contenido y el borde. Border dibuja el borde. Margin separa la caja de lo que tiene alrededor. No son cuatro nombres para lo mismo.
+
+Si el texto toca el borde de una tarjeta, normalmente necesitamos más espacio interior. Si dos tarjetas están demasiado juntas, necesitamos espacio entre ellas. Elegir la propiedad correcta evita arreglos que solo funcionan por casualidad.
+
+Vamos a dar a las tarjetas un relleno cómodo, un borde discreto y esquinas ligeramente redondeadas. Después limitaremos el ancho del contenido de la página. En una pantalla grande, una línea de texto que atraviesa todo el monitor resulta difícil de seguir. No hace falta utilizar todo el ancho disponible para aprovecharlo bien.
+
+También aplicaremos una regla de box sizing con el valor border box. Nos ayuda a que el ancho declarado incluya el relleno y el borde. Así los tamaños resultan más fáciles de razonar cuando añadimos espacio interior.
+
+Imaginemos una tarjeta como un sobre con una nota dentro. La nota representa el contenido. El espacio entre la nota y el borde del sobre se parece al relleno interior. El borde marca su límite. La distancia que dejamos entre ese sobre y otro se parece al margen exterior. La comparación no describe todas las reglas del navegador, pero nos ayuda a distinguir dónde queremos añadir espacio.
+
+Ahora veamos dos tarjetas con el mismo tamaño de letra. Una tiene el texto pegado al borde y la otra deja un poco de espacio interior. La segunda suele ser más cómoda de recorrer aunque tenga exactamente las mismas palabras. No añadimos información, pero mejoramos cómo se presenta. Esa es una de las razones por las que el espacio forma parte del diseño.
+
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 
 LECCIÓN 7. QUE FUNCIONE TAMBIÉN EN EL CELULAR
 
