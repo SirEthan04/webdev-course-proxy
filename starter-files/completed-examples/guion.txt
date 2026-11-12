@@ -1,0 +1,52 @@
+LECCIÓN 3. IMÁGENES Y ENLACES: QUE LA PÁGINA TENGA ALGO QUE MOSTRAR
+
+BLOQUE A
+Buenas. Hoy tenemos dos objetivos: añadir una imagen y conseguir que un enlace nos lleve al sitio correcto. Parece sencillo, hasta que la imagen desaparece y el enlace nos manda a un lugar que no era. Vamos a entender por qué ocurre antes de culpar al wifi por todo.
+
+Para este ejercicio usaremos una imagen accesible mediante una dirección de internet. En el ejemplo aparece una rodaja de pomelo, que nos servirá como referencia para un pequeño reto de dibujo. La dirección ya estará escrita en el ejercicio. No necesitamos descargar la imagen ni crear una carpeta: el navegador la solicitará desde esa dirección cuando cargue la vista previa.
+
+La etiqueta de imagen se llama img. Necesita saber qué imagen mostrar. Esa información se escribe en el atributo src. Un atributo añade información a un elemento y normalmente se escribe en su etiqueta de apertura. En nuestro ejemplo, src contiene la dirección completa del recurso. Las comillas marcan dónde empieza y termina ese valor.
+
+No estamos pegando la foto dentro del código. Estamos escribiendo una dirección para encontrarla. Necesitamos un enlace al recurso de imagen, no simplemente la dirección de una página donde alguien publicó muchas fotos. Además, ese recurso debe ser accesible para quien abra nuestro ejercicio, no solo para una persona que tenga una sesión iniciada en otro servicio.
+
+También añadimos alt, un texto alternativo. Su objetivo es comunicar la información relevante de la imagen cuando no puede verse, por ejemplo al usar un lector de pantalla. En nuestro caso describiremos una rodaja de pomelo sobre otras rodajas. Si eligen otra imagen, adapten la descripción a lo que muestra. Escribir solamente imagen bonita no cuenta mucho.
+
+Para entender un atributo, pensemos en una instrucción que necesita un dato extra. Decir muestra una imagen no es suficiente si no especificamos cuál. La etiqueta identifica el tipo de elemento; el atributo aporta información necesaria para configurarlo. En nuestro ejemplo, uno indica la dirección del recurso y otro describe lo que comunica la imagen. No estamos creando dos imágenes: estamos describiendo dos aspectos de la misma.
+
+Veamos las comillas. El valor completo de cada atributo queda entre ellas. Si cerramos las comillas antes de tiempo, el navegador puede interpretar lo que viene después de una forma distinta a la prevista. Por eso, cuando copiamos una dirección, revisamos el principio y el final. Una dirección larga puede distraernos, pero seguimos buscando una estructura sencilla: nombre del atributo, signo igual y valor entre comillas.
+
+BLOQUE B
+Veamos el resultado. Aparece nuestra imagen de referencia. Si la de ustedes no aparece, comprueben que copiaron la dirección completa, sin cortar letras ni añadir espacios. Puede fallar una dirección incorrecta, un recurso que ya no existe o un servidor que no permite mostrarlo desde otra página. Para empezar, prueben con la dirección del ejemplo antes de cambiar otras partes del código.
+
+Si una imagen es puramente decorativa y no aporta información, puede llevar un texto alternativo vacío. La decisión depende de su función en la página. No necesitamos narrar cada detalle de un adorno, pero sí comunicar lo que una imagen importante está contando.
+
+Pasemos a los enlaces. Usamos la etiqueta a y el atributo href para indicar el destino. Entre la apertura y el cierre escribimos el texto que la persona podrá seleccionar. Ese texto debería explicar adónde lleva el enlace. Visitar Wikipedia dice más que pulsa aquí, especialmente si encontramos varios enlaces seguidos.
+
+Hay enlaces a otras páginas y enlaces a lugares dentro de nuestro propio documento. Vamos a crear uno que diga Ver recomendaciones. Su destino empieza con una almohadilla y continúa con el identificador recomendaciones. Después damos ese mismo identificador a la sección correspondiente.
+
+Al seleccionarlo, el navegador busca ese lugar en la página. El nombre del destino y el identificador deben coincidir. Si uno dice recomendacion y el otro recomendaciones, esa letra extra importa. El navegador es rápido, pero no está obligado a adivinar lo que quisimos escribir.
+
+Un identificador debe ser único en el documento. Si varios elementos tienen el mismo, el destino se vuelve ambiguo. Más adelante usaremos clases para agrupar elementos que comparten estilo. Identificador y clase se parecen a primera vista, pero no cumplen exactamente el mismo papel.
+
+Por ahora abriremos los enlaces externos en la misma pestaña. Y recuerden: añadir un enlace a una web no convierte su contenido en nuestro. Para las imágenes del proyecto, utilicen material propio o que tengan permiso para usar.
+
+Hay una diferencia importante entre el texto de un enlace y su destino. Podemos escribir Ver recomendaciones como texto visible y usar un destino interno. Si cambiamos solo esas palabras por Explorar ideas, el enlace puede seguir llevando al mismo lugar. Si cambiamos el destino, en cambio, modificamos adónde nos lleva aunque las palabras visibles permanezcan iguales. Conviene que ambos cuenten una historia coherente.
+
+Un enlace que dice Ver horarios y lleva a una página de imágenes confunde, aunque técnicamente funcione. No basta con que se pueda pulsar. Tiene que cumplir lo que promete. Lo mismo sucede si colocamos tres enlaces llamados Aquí. Al escucharlos fuera de contexto, cuesta distinguirlos. Nombrar sus destinos con claridad ayuda a navegar tanto visualmente como con herramientas de lectura.
+
+También debemos distinguir una dirección completa de un destino dentro del documento. La dirección completa señala un recurso o una página en la web. El destino que comienza con almohadilla busca un identificador dentro de la página actual. En nuestro club usamos ambos. Uno nos lleva a un sitio externo; el otro nos permite saltar a una sección sin abandonar el contenido que estamos leyendo.
+
+BLOQUE C
+Veamos ahora cómo añadir una imagen con un texto alternativo útil y un enlace hacia la sección de recomendaciones. Después hagan una prueba deliberada: cambien una letra de la ruta de la imagen. Observen qué pasa y luego corríjanla. Aprender a reconocer un fallo pequeño ayuda muchísimo cuando aparezca uno sin avisar.
+
+En nuestra demostración cambiaremos también el destino del enlace interno. Primero fallará porque los nombres no coinciden. Después pondremos el mismo identificador en ambos lugares y volveremos a probar. Así sabemos por qué funciona, en lugar de celebrar un arreglo misterioso.
+
+Pensemos ahora en qué debería decir el texto alternativo. Si la imagen es una referencia para dibujar una fruta, describir la fruta ayuda a comprender su función. No necesitamos decir fotografía de una imagen de una foto. Podemos ir directamente a la información útil. Tampoco conviene repetir un párrafo entero que ya se encuentra justo al lado si no aporta nada nuevo.
+
+El texto alternativo no es lo mismo que un pie visible de imagen. Si queremos que todas las personas vean una explicación debajo, podemos escribir contenido visible para eso. Alt tiene otra función. A veces lo veremos cuando la imagen falla y otras veces lo utilizará una herramienta de acceso. No debemos diseñar la página suponiendo que siempre aparecerá como una frase completa debajo de la foto.
+
+Antes de terminar, expliquen mentalmente estas dos diferencias. El atributo src de la imagen indica qué archivo mostrar. El atributo href del enlace indica adónde ir. Uno carga un recurso; el otro define un destino que podemos visitar.
+
+Ya tenemos una página con contenido, una imagen y navegación. Si la portada se ve demasiado grande, no intenten reducirla metiendo espacios alrededor. En las próximas lecciones controlaremos su tamaño con ce ese ese.
+
+Guarden el Pen y comprueben que la imagen siga apareciendo en la vista previa. En la siguiente lección vamos a ordenar las zonas de la página para que todo esto tenga una estructura clara. Nos vemos allí.
