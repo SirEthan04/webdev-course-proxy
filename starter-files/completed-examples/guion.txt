@@ -152,7 +152,9 @@ El siguiente ejemplo consiste en elegir una combinación de fondo, texto y acent
 
 Durante la demostración compararemos dos versiones. Una tendrá colores que se distinguen bien. La otra tendrá poco contraste. Después recuperaremos la legible y cambiaremos el tamaño del título sin modificar su nivel de encabezado. Así comprobamos que estructura y apariencia pueden trabajar por separado.
 
+Una decisión de diseño puede empezar por el contenido. Si queremos que la página sea cómoda para leer recomendaciones, el tamaño del texto y su contraste importan más que una fuente llamativa. Podemos elegir un estilo con personalidad sin complicar cada frase. Reservar un color de acento para ciertos elementos ayuda a que esos elementos destaquen cuando realmente lo necesitan.
 
+Supongamos que todos los textos tienen colores diferentes. Tal vez el resultado parezca alegre, pero también puede hacer difícil distinguir qué significan esos cambios. Si usamos el mismo acento para las categorías y los enlaces, tendremos un criterio más consistente. Eso no convierte a ambos en el mismo tipo de elemento: simplemente establece una relación visual dentro de la página.
 
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
