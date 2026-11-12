@@ -167,9 +167,10 @@ Guarden su combinación de colores. En la próxima lección vamos a trabajar con
 Lección 6. ESPACIOS Y TARJETAS: EL DISEÑO TAMBIÉN RESPIRA
 
 BLOQUE A
+
 Hola de nuevo. Hoy vamos a arreglar una situación muy común: el contenido está, los colores funcionan, pero todo parece demasiado apretado. Es como intentar poner a diez personas en una foto donde solo caben cinco. Antes de cambiar de cámara, quizá conviene darles espacio.
 
-En ce ese ese, los elementos se organizan mediante cajas. Para entender una caja distinguimos el contenido, el relleno interior, el borde y el margen exterior. Esta idea se conoce como el modelo de caja.
+En CSS, los elementos se organizan mediante cajas. Para entender una caja distinguimos el contenido, el relleno interior, el borde y el margen exterior. Esta idea se conoce como el modelo de caja.
 
 El contenido es el texto, la imagen o lo que haya dentro. Padding es el espacio entre ese contenido y el borde. Border dibuja el borde. Margin separa la caja de lo que tiene alrededor. No son cuatro nombres para lo mismo.
 
@@ -184,6 +185,7 @@ Imaginemos una tarjeta como un sobre con una nota dentro. La nota representa el 
 Ahora veamos dos tarjetas con el mismo tamaño de letra. Una tiene el texto pegado al borde y la otra deja un poco de espacio interior. La segunda suele ser más cómoda de recorrer aunque tenga exactamente las mismas palabras. No añadimos información, pero mejoramos cómo se presenta. Esa es una de las razones por las que el espacio forma parte del diseño.
 
 BLOQUE B
+
 Veamos un ejemplo con números sencillos. Si una caja tiene un ancho de trescientos píxeles y el modelo usado añade el relleno por fuera de ese ancho, el tamaño visible puede crecer. Con border box, el relleno y el borde quedan incluidos dentro del ancho indicado. El espacio para el contenido se ajusta.
 
 No hace falta hacer cuentas a mano en cada tarjeta, pero sí entender por qué una caja puede ocupar más de lo esperado. Cuando el diseño se desborda, la causa no siempre es un misterio del navegador. A veces hemos sumado tamaños sin darnos cuenta.
@@ -205,6 +207,7 @@ Los márgenes automáticos a los lados permiten centrar ese contenedor cuando qu
 La imagen también necesita una proporción coherente. Si fijamos un ancho y una altura que no respetan su forma original, podemos deformarla. Por eso dejamos que la altura se calcule automáticamente cuando limitamos su ancho. El objetivo no es que todas las imágenes ocupen exactamente lo mismo a cualquier precio, sino que se adapten sin convertirse en versiones aplastadas de lo que queríamos mostrar.
 
 BLOQUE C
+
 Prueben este diagnóstico. El título de una tarjeta está pegado al borde superior. ¿Cambiarían el margen entre tarjetas o el relleno interior de esa tarjeta? Empezaríamos por el relleno interior. Ahora dos tarjetas se tocan por fuera. Ahí necesitamos separar las cajas.
 
 En pantalla cambiaremos ambos valores por separado. Miren qué zona se mueve en cada caso. Después reduciremos el ancho de la vista previa para comprobar que la portada no se sale del contenido. Si aparece desplazamiento horizontal, buscaremos qué elemento está obligando a la página a ser demasiado ancha.
@@ -218,8 +221,6 @@ Nuestro objetivo es conseguir que las tres tarjetas tengan un espacio interior p
 Hoy hemos mejorado algo que a veces pasa desapercibido: el espacio. Cuando está bien usado, no suele llamar la atención; simplemente hace que todo se entienda mejor.
 
 Guarden el proyecto. En la siguiente lección colocaremos las tarjetas una junto a otra cuando haya espacio y una debajo de otra cuando no lo haya. Porque una página que solo funciona en nuestra pantalla todavía tiene bastante que aprender. Hasta la próxima.
-
-
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
