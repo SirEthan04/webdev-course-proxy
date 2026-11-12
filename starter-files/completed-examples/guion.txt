@@ -158,6 +158,8 @@ Supongamos que todos los textos tienen colores diferentes. Tal vez el resultado 
 
 Revisen que la regla esté en el panel de ce ese ese, que el selector corresponda al elemento o clase que quieren cambiar y que la vista previa se haya actualizado. Después guarden la versión. Esas comprobaciones resuelven muchos de los primeros problemas sin tener que empezar otra vez.
 
+Ya tenemos estilo, pero quizá algunas cosas siguen demasiado pegadas o demasiado anchas. Eso no se arregla pulsando la barra espaciadora veinte veces. ce ese ese tiene herramientas específicas para controlar el espacio.
+
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
