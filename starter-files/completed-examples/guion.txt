@@ -144,6 +144,14 @@ Vamos a distinguir el color del texto del color de fondo. La propiedad color mod
 
 También podemos cambiar el tamaño del encabezado sin cambiar su contenido. Si aumentamos su tamaño mediante ce ese ese, sigue siendo el mismo encabezado de ache te eme ele. Esta separación es muy útil: podemos mejorar la apariencia conservando la estructura. No necesitamos reemplazar un título por otro elemento solo porque queremos que se vea más pequeño en un celular.
 
+Cuando varias tarjetas comparten una clase, una regla puede cambiar las tres. Probemos un fondo distinto y observemos el conjunto. Después lo restauramos. Hemos modificado una regla, no tres copias independientes. Eso reduce trabajo y evita pequeñas diferencias accidentales. Si mañana añadimos otra tarjeta con la misma clase, también podrá recibir ese estilo sin tener que repetir todas las declaraciones.
+
+BLOQUE C
+
+El siguiente ejemplo consiste en elegir una combinación de fondo, texto y acento. Mantengan el texto claramente visible y cambien una cosa cada vez. Si modifican quince propiedades antes de mirar el resultado, descubrir qué causó un problema se convierte en una investigación bastante innecesaria.
+
+Durante la demostración compararemos dos versiones. Una tendrá colores que se distinguen bien. La otra tendrá poco contraste. Después recuperaremos la legible y cambiaremos el tamaño del título sin modificar su nivel de encabezado. Así comprobamos que estructura y apariencia pueden trabajar por separado.
+
 
 
 
