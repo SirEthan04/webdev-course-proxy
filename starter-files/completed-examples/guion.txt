@@ -156,6 +156,8 @@ Una decisión de diseño puede empezar por el contenido. Si queremos que la pág
 
 Supongamos que todos los textos tienen colores diferentes. Tal vez el resultado parezca alegre, pero también puede hacer difícil distinguir qué significan esos cambios. Si usamos el mismo acento para las categorías y los enlaces, tendremos un criterio más consistente. Eso no convierte a ambos en el mismo tipo de elemento: simplemente establece una relación visual dentro de la página.
 
+Revisen que la regla esté en el panel de ce ese ese, que el selector corresponda al elemento o clase que quieren cambiar y que la vista previa se haya actualizado. Después guarden la versión. Esas comprobaciones resuelven muchos de los primeros problemas sin tener que empezar otra vez.
+
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
