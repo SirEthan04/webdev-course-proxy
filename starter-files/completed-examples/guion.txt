@@ -138,6 +138,12 @@ Otra idea importante es la cascada. En condiciones equivalentes, si dos reglas d
 
 Algunas propiedades, como el color del texto, suelen heredarse a los descendientes. Otras, como los márgenes, no se heredan de esa forma. Por eso una regla en body puede cambiar mucho texto sin darnos automáticamente el mismo espacio en todos los elementos.
 
+Probemos ahora un color de texto casi igual al fondo. Cuesta leerlo. Volvemos a un contraste más claro. Un diseño sirve a quienes lo usan; no debería obligarles a esforzarse para encontrar las palabras.
+
+Vamos a distinguir el color del texto del color de fondo. La propiedad color modifica el color del texto del elemento. La propiedad de fondo que estamos utilizando modifica el fondo. Si queríamos una tarjeta azul y cambiamos únicamente el color del texto, puede que veamos letras azules sobre el mismo fondo de antes. El navegador hizo lo que escribimos, aunque no fuera lo que imaginamos.
+
+También podemos cambiar el tamaño del encabezado sin cambiar su contenido. Si aumentamos su tamaño mediante ce ese ese, sigue siendo el mismo encabezado de ache te eme ele. Esta separación es muy útil: podemos mejorar la apariencia conservando la estructura. No necesitamos reemplazar un título por otro elemento solo porque queremos que se vea más pequeño en un celular.
+
 
 
 
