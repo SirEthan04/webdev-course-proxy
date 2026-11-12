@@ -121,6 +121,7 @@ Vamos a seleccionar body. Le daremos un color de fondo oscuro y un color de text
 
 Observemos una regla como una frase con tres preguntas. ¿A quién queremos cambiar? Eso lo indica el selector. ¿Qué queremos cambiar? Eso lo indica la propiedad. ¿Qué valor tendrá? Eso lo escribimos después de los dos puntos. Cuando vemos la regla de color aplicada al cuerpo de la página, podemos responder esas preguntas sin aprender una lista enorme de instrucciones de memoria.
 
+Las llaves agrupan las declaraciones que pertenecen a esa regla. Si olvidamos una llave, podemos dificultar la interpretación de las líneas siguientes. Los signos no están ahí para que el código parezca más técnico. Son parte de su organización. Al revisar un problema, podemos comprobar primero los límites de la regla y después cada pareja de propiedad y valor.
 
 
 
