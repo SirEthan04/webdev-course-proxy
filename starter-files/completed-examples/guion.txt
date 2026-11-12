@@ -160,6 +160,7 @@ Revisen que la regla esté en el panel de ce ese ese, que el selector correspond
 
 Ya tenemos estilo, pero quizá algunas cosas siguen demasiado pegadas o demasiado anchas. Eso no se arregla pulsando la barra espaciadora veinte veces. ce ese ese tiene herramientas específicas para controlar el espacio.
 
+Guarden su combinación de colores. En la próxima lección vamos a trabajar con cajas, márgenes y rellenos. Suena a mudanza, pero es lo que hará que nuestras tarjetas dejen de empujarse entre ellas. Nos vemos.
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
