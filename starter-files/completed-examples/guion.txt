@@ -105,3 +105,69 @@ Les propongo una pregunta. Si queremos que las tres recomendaciones compartan el
 Guarden esta versión, porque hemos terminado nuestra base de ache te eme ele. Ya no es una frase suelta en el editor: tenemos una pequeña página con secciones y contenido real.
 
 En la próxima lección entra ce ese ese. Por fin vamos a darle una identidad visual. Podemos hacerlo elegante, colorido o tranquilo. Lo único que no recomiendo es elegir todos los colores a la vez, aunque el selector de colores parezca estar retándonos. Hasta la próxima.
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+LECCIÓN 7. QUE FUNCIONE TAMBIÉN EN EL CELULAR
+
+BLOQUE A
+Buenas. Hoy llega la prueba de la vista previa pequeña. En una pantalla grande nuestra página puede verse estupenda. Luego alguien la abre en su celular y descubre un título cortado, una imagen enorme y una tarjeta que parece haberse escapado por la derecha. Vamos a evitar ese recorrido.
+
+Un diseño adaptable cambia su distribución según el espacio disponible. No consiste solo en encoger todo hasta que quepa. Si el texto termina diminuto, técnicamente cabe, pero nadie quiere leerlo.
+
+Empezaremos con una sola columna de tarjetas. Es una base sencilla que funciona bien cuando hay poco ancho. Después añadiremos una regla para mostrar tres columnas cuando la pantalla tenga suficiente espacio.
+
+El contenedor de las tarjetas usará ce ese ese Grid. Con display grid activamos ese sistema de distribución. Con gap definimos la separación entre las tarjetas. Esto nos permite controlar el espacio entre elementos sin asignar un margen distinto a cada uno.
+
+Al principio indicaremos una sola columna. Después, dentro de una consulta de medios, cambiaremos a tres columnas iguales cuando se alcance el ancho elegido. Una consulta de medios aplica ciertas reglas solo cuando se cumplen determinadas condiciones. En nuestro ejemplo, la condición será el ancho disponible.
+
+El punto de cambio no es una frontera universal entre celulares y computadoras. Es una decisión del diseño. Elegimos un tamaño donde nuestras tres tarjetas pueden leerse con comodidad. Si el contenido cambia, puede que debamos revisar esa decisión.
+
+La anchura disponible dentro de CodePen puede ser menor que la anchura de nuestra pantalla. El editor ocupa una parte y la vista previa ocupa otra. Por eso observaremos la zona del resultado. Al mover su separador podemos simular distintas condiciones sin cambiar nuestro código cada vez. El objetivo es ver cómo responde el diseño a un espacio diferente.
+
+Una sola columna no es una versión incompleta. En un espacio estrecho puede ser la mejor forma de leer las tarjetas. Las personas recorren el contenido hacia abajo sin tener que desplazarlo de lado a lado. Cuando sobra espacio, varias columnas permiten comparar recomendaciones. Cambiamos la organización para aprovechar cada situación, manteniendo el mismo contenido y su orden lógico.
+
+BLOQUE B
+Vamos a estrechar y ampliar la vista previa despacio. Primero vemos una columna. Cuando hay más espacio, aparecen tres. El contenido no se ha duplicado ni hemos creado otra página. Son los mismos elementos con una distribución diferente.
+
+En la regla de las tres columnas usamos fr, una unidad que reparte el espacio disponible dentro de la cuadrícula. Para este ejemplo pedimos tres partes iguales. También usamos un mínimo de cero en la definición de las columnas para permitir que se reduzcan sin imponer un mínimo de contenido inesperado.
+
+Esto no significa que cualquier texto vaya a caber mágicamente. Una dirección larguísima sin espacios puede necesitar tratamiento adicional. Por eso incluiremos una regla que permita partir contenido largo cuando sea necesario, y probaremos con títulos más extensos que los del ejemplo.
+
+La navegación usará Flexbox, otro sistema de distribución. Nos sirve para colocar enlaces en una fila y permitir que pasen a otra línea cuando ya no quepan. Grid y Flexbox no son rivales: elegimos el que facilita cada parte del diseño.
+
+También vamos a revisar el tamaño del texto y el espacio de los enlaces. Si dos enlaces quedan tan juntos que cuesta seleccionar uno, aumentar su separación es una mejora funcional. No es solo una preferencia estética.
+
+Probemos ahora la navegación con el teclado. El enlace enfocado debe distinguirse. Mantendremos un contorno visible y añadiremos un pequeño espacio entre ese contorno y el enlace. Nunca vamos a eliminar la señal de enfoque solo porque aparece una línea que no habíamos previsto.
+
+La revisión no termina cuando vemos que las columnas cambian. Hay que comprobar que el texto se lee, que las imágenes caben, que los enlaces funcionan y que no aparece un desplazamiento horizontal inesperado. Adaptable significa utilizable en distintos tamaños, no simplemente diferente.
+
+Si pueden, abran el enlace guardado del ejercicio en otro dispositivo y comprueben cómo se presenta. En CodePen, el espacio ocupado por el editor también influye en el tamaño disponible para la vista previa. Reducir esa zona nos ayuda a probar la adaptación, pero no sustituye todas las condiciones reales de un celular.
+
+Observemos dónde escribimos las reglas. Fuera de la consulta de medios definimos la distribución básica. Dentro añadimos el cambio que se activa cuando se cumple la condición. No necesitamos repetir allí todos los colores, bordes y tamaños de texto. Conservamos lo que ya funciona y modificamos lo necesario. Esto mantiene la hoja de estilos más fácil de revisar.
+
+Si la consulta no produce el resultado esperado, comprobamos tres cosas: que su condición esté bien escrita, que las llaves estén cerradas y que el selector coincida con el contenedor. También miramos el ancho real de la vista previa. No sirve medir mentalmente todo el monitor cuando la página está ocupando solo una parte. Debemos observar el espacio que recibe el documento.
+
+Con la navegación sucede otra cosa interesante. Permitir que los enlaces pasen a la siguiente línea evita apretarlos hasta que dejen de leerse. Una fila de dos líneas puede ser perfectamente válida. No necesitamos reducir las letras para conservar una sola fila a toda costa. A veces la adaptación más clara consiste en permitir que el contenido ocupe un poco más de altura.
+
+BLOQUE C
+Ahora hagan tres pruebas: vista previa ancha, vista previa estrecha y aumento del zoom del navegador. Observen si los títulos siguen siendo legibles y si pueden llegar a todos los enlaces. No busquen una captura perfecta; busquen una página que soporte cambios normales. Hagan clic dentro del resultado antes de recorrer sus enlaces con el teclado, para distinguirlo de los controles del editor.
+
+Durante nuestra demostración añadiremos un título más largo a una tarjeta. Después veremos si la distribución sigue funcionando. Un diseño que solo acepta tres palabras exactas es bastante exigente con sus usuarios. El contenido real no siempre pide permiso antes de ocupar más espacio.
+
+Vamos a imaginar dos personas: una utiliza el ratón y otra se mueve con el teclado. Las dos deberían poder identificar los enlaces. Un efecto que aparece al pasar el ratón puede ayudar a la primera, pero no basta para la segunda. Por eso mantenemos un indicador de enfoque. Cuando se mueve la selección con Tab, ese indicador muestra dónde se encuentra la interacción.
+
+También probamos el zoom. Algunas personas amplían el contenido para leer con comodidad. Si nuestro diseño solo funciona al tamaño exacto que elegimos al grabar, estamos dejando fuera una situación bastante normal. Ampliar no debería volver inaccesible una parte importante de la página. Miramos si los elementos siguen reorganizándose y si el texto permanece dentro de sus cajas.
+
+Repasemos. Grid organiza nuestras tarjetas. Gap las separa. La consulta de medios modifica las columnas según el ancho disponible en la vista previa. Flexbox ayuda a distribuir los enlaces. Estamos probando el contenido que aparece dentro del resultado de CodePen, no el tamaño de sus paneles de código. Por eso conviene observar el resultado mientras movemos su separador.
+
+Ya tenemos estructura, estilo y adaptación. Falta la parte que suele decidir si un proyecto está listo: revisarlo con intención y corregir lo que todavía falla.
+
+Guarden esta versión. En la última lección vamos a probar la página completa y resolver errores reales. Ningún efecto de transición puede reparar un enlace roto, aunque le pongamos una entrada espectacular. Nos vemos en el cierre.
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
