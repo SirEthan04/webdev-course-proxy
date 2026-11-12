@@ -183,6 +183,42 @@ Imaginemos una tarjeta como un sobre con una nota dentro. La nota representa el 
 
 Ahora veamos dos tarjetas con el mismo tamaño de letra. Una tiene el texto pegado al borde y la otra deja un poco de espacio interior. La segunda suele ser más cómoda de recorrer aunque tenga exactamente las mismas palabras. No añadimos información, pero mejoramos cómo se presenta. Esa es una de las razones por las que el espacio forma parte del diseño.
 
+BLOQUE B
+Veamos un ejemplo con números sencillos. Si una caja tiene un ancho de trescientos píxeles y el modelo usado añade el relleno por fuera de ese ancho, el tamaño visible puede crecer. Con border box, el relleno y el borde quedan incluidos dentro del ancho indicado. El espacio para el contenido se ajusta.
+
+No hace falta hacer cuentas a mano en cada tarjeta, pero sí entender por qué una caja puede ocupar más de lo esperado. Cuando el diseño se desborda, la causa no siempre es un misterio del navegador. A veces hemos sumado tamaños sin darnos cuenta.
+
+Ahora centraremos el contenedor principal con un ancho máximo y márgenes automáticos a los lados. En una pantalla pequeña debe poder estrecharse. Por eso no vamos a fijar una anchura enorme que el teléfono tenga que soportar como pueda.
+
+La imagen de portada también necesita adaptarse. Le pondremos un ancho máximo del cien por ciento y una altura automática. De este modo no debería superar el ancho de su contenedor y conservará sus proporciones. Una imagen de un mando no tiene por qué convertirse en un acordeón al cambiar el tamaño de la ventana.
+
+Vamos a probar valores de relleno. Primero casi ninguno: el texto queda pegado al borde. Luego muchísimo: la tarjeta desperdicia espacio y se hace demasiado grande. Finalmente, un valor intermedio. Diseñar también consiste en comparar, no en acertar un número mágico a la primera.
+
+Usaremos unidades relativas como rem para varias medidas. Un rem se relaciona con el tamaño de fuente del elemento raíz. No significa que todo se adapte automáticamente, pero puede ayudarnos a mantener proporciones coherentes. Los píxeles también tienen usos; no hay que convertir cada unidad en una guerra de bandos.
+
+Por último, recordemos que un enlace sigue siendo un enlace aunque le demos apariencia de botón. Su función aquí es llevarnos a otra sección. No necesitamos inventar un botón sin comportamiento solo porque nos gusta su forma.
+
+Vamos a observar la diferencia entre ancho y ancho máximo. Un ancho fijo puede exigir que una caja mida siempre lo mismo. Un ancho máximo pone un límite superior, pero permite que la caja sea más estrecha cuando corresponde. En nuestro contenedor combinamos un ancho relativo con un límite. Así aprovechamos buena parte de una pantalla pequeña sin extender los párrafos por toda una pantalla enorme.
+
+Los márgenes automáticos a los lados permiten centrar ese contenedor cuando queda espacio disponible. No estamos centrando cada letra del texto: estamos colocando la caja completa. Centrar una caja y centrar el texto son decisiones distintas. Podemos tener una columna centrada en la página y, dentro de ella, párrafos alineados al inicio para facilitar la lectura.
+
+La imagen también necesita una proporción coherente. Si fijamos un ancho y una altura que no respetan su forma original, podemos deformarla. Por eso dejamos que la altura se calcule automáticamente cuando limitamos su ancho. El objetivo no es que todas las imágenes ocupen exactamente lo mismo a cualquier precio, sino que se adapten sin convertirse en versiones aplastadas de lo que queríamos mostrar.
+
+BLOQUE C
+Prueben este diagnóstico. El título de una tarjeta está pegado al borde superior. ¿Cambiarían el margen entre tarjetas o el relleno interior de esa tarjeta? Empezaríamos por el relleno interior. Ahora dos tarjetas se tocan por fuera. Ahí necesitamos separar las cajas.
+
+En pantalla cambiaremos ambos valores por separado. Miren qué zona se mueve en cada caso. Después reduciremos el ancho de la vista previa para comprobar que la portada no se sale del contenido. Si aparece desplazamiento horizontal, buscaremos qué elemento está obligando a la página a ser demasiado ancha.
+
+Veamos un problema frecuente: queremos separar dos párrafos y añadimos muchos espacios dentro del texto. En la presentación normal de ache te eme ele, esos espacios no funcionan como una herramienta fiable de diseño. Para controlar separación usamos propiedades de ce ese ese. El texto cuenta el mensaje; las reglas de estilo definen cómo se coloca. Así no dependemos de trucos que cambian cuando la ventana se estrecha.
+
+Otro caso: una tarjeta parece más grande que las demás. Antes de reducir su letra, revisamos si tiene más contenido, más relleno o una medida diferente. Quizá no hay ningún error: su descripción necesita más líneas. Un buen diseño debe tolerar cierta variación. No queremos recortar una explicación útil solo para conseguir que todas las capturas parezcan idénticas.
+
+Nuestro objetivo es conseguir que las tres tarjetas tengan un espacio interior parecido y que el texto no quede pegado a los bordes. No hace falta decorar más. Primero queremos una lectura cómoda y un orden consistente.
+
+Hoy hemos mejorado algo que a veces pasa desapercibido: el espacio. Cuando está bien usado, no suele llamar la atención; simplemente hace que todo se entienda mejor.
+
+Guarden el proyecto. En la siguiente lección colocaremos las tarjetas una junto a otra cuando haya espacio y una debajo de otra cuando no lo haya. Porque una página que solo funciona en nuestra pantalla todavía tiene bastante que aprender. Hasta la próxima.
+
 
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
