@@ -132,6 +132,11 @@ Los valores que empiezan con almohadilla y combinan números y letras son colore
 
 Para seleccionar una clase escribimos un punto antes de su nombre. Punto tarjeta afectará a todos los elementos con esa clase. Para seleccionar un elemento por su tipo, escribimos su nombre, como body o hache uno. El punto tiene una función: no es decoración que podamos añadir o quitar al azar.
 
+Hagamos una prueba. Escribimos una regla para tarjeta, pero olvidamos el punto. El navegador buscará elementos con ese nombre, no nuestra clase. Lo corregimos, guardamos y comprobamos. Ese pequeño símbolo explica por qué a veces todo parece bien y no cambia absolutamente nada.
+
+Otra idea importante es la cascada. En condiciones equivalentes, si dos reglas del mismo selector cambian la misma propiedad, la que aparece después puede imponerse. Pero no es cierto que la última línea siempre gane: también influyen factores como la importancia y la especificidad. Hoy empezaremos con reglas sencillas para que podamos seguir lo que pasa.
+
+Algunas propiedades, como el color del texto, suelen heredarse a los descendientes. Otras, como los márgenes, no se heredan de esa forma. Por eso una regla en body puede cambiar mucho texto sin darnos automáticamente el mismo espacio en todos los elementos.
 
 
 
