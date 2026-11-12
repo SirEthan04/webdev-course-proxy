@@ -50,3 +50,58 @@ Antes de terminar, expliquen mentalmente estas dos diferencias. El atributo src 
 Ya tenemos una página con contenido, una imagen y navegación. Si la portada se ve demasiado grande, no intenten reducirla metiendo espacios alrededor. En las próximas lecciones controlaremos su tamaño con ce ese ese.
 
 Guarden el Pen y comprueben que la imagen siga apareciendo en la vista previa. En la siguiente lección vamos a ordenar las zonas de la página para que todo esto tenga una estructura clara. Nos vemos allí.
+
+LECCIÓN 4. UNA ESTRUCTURA QUE TENGA SENTIDO
+
+BLOQUE A
+Hola otra vez. Ya tenemos varias piezas y ahora toca decidir dónde vive cada una. Porque una página puede contener información interesante y aun así sentirse como un chat de grupo donde mezclaron la tarea, veinte memes y la pregunta de quién trae la cartulina. Todo está ahí, pero encontrarlo cuesta.
+
+ache te eme ele tiene elementos que describen regiones de una página. Usarlos con intención hace que el documento sea más comprensible. No añaden magia visual por sí solos: explican qué papel cumple cada parte.
+
+En nuestro proyecto, header será la cabecera. Ahí colocaremos el nombre del club y su presentación. Nav agrupará los enlaces principales de navegación. Main contendrá el contenido principal. Footer será el pie de página, donde escribiremos una frase breve sobre el proyecto.
+
+Dentro del contenido principal tendremos una sección de recomendaciones y otra con pasos para participar. Una section agrupa contenido relacionado bajo un tema. Generalmente conviene que tenga un encabezado que explique de qué trata.
+
+Cada recomendación será un article. En nuestro caso tiene sentido porque cada una puede entenderse como una pequeña pieza independiente: un título, una descripción y una categoría. No todo rectángulo necesita convertirse en article. La decisión depende del contenido, no de si pensamos dibujarle un borde.
+
+También existe div, un contenedor genérico. Lo usaremos para agrupar las tarjetas cuando necesitemos organizarlas visualmente. No está prohibido: simplemente conviene usar un elemento con significado cuando ese significado encaje. Elegimos la herramienta según su trabajo.
+
+Pensemos en alguien que llega a nuestra página por primera vez. Quiere entender qué es el club, encontrar sus recomendaciones y saber cómo participar. La estructura debería acompañar ese recorrido. Si colocamos primero una lista de condiciones, después una recomendación suelta y al final el nombre del club, quizás toda la información esté presente, pero la entrada resulta menos clara.
+
+Los elementos con significado ayudan a expresar esa organización. Un grupo de enlaces de navegación no es cualquier conjunto de palabras. El contenido principal no es simplemente la caja más grande. Cuando elegimos una etiqueta, nos preguntamos qué papel cumple esa parte. De esta manera, el documento comunica algo que sigue siendo útil aunque luego cambiemos los colores o la distribución.
+
+BLOQUE B
+Vamos a mover lo que ya tenemos. La cabecera queda arriba, la navegación después, las recomendaciones dentro del contenido principal y el pie al final. Durante un momento el resultado puede parecer casi igual. Eso es normal. Estamos mejorando la estructura, no aplicando todavía el diseño.
+
+Añadimos tres artículos. El primero recomienda un juego cooperativo. El segundo propone escuchar un álbum completo. El tercero plantea dibujar un personaje usando solo tres colores. Cada tarjeta tendrá un encabezado de nivel tres porque vive dentro de la sección Recomendaciones, que tiene nivel dos.
+
+Fíjense en que el encabezado principal sigue siendo el nombre del club. No ponemos un encabezado principal nuevo cada vez que queremos letras grandes. Queremos que los títulos describan una organización que se pueda seguir.
+
+Ahora damos a los artículos una clase llamada tarjeta. La clase es una etiqueta que nosotros elegimos para agrupar elementos. Los tres artículos pueden compartirla. Después podremos decirle a ce ese ese que todas las tarjetas tengan el mismo fondo o los mismos espacios interiores.
+
+También añadimos una clase llamada destacada a una de ellas. Un elemento puede tener varias clases, separadas por espacios. Así podremos compartir una base común y hacer que una tarjeta tenga un detalle especial. No tenemos que copiar todo su estilo desde cero.
+
+El enlace hacia recomendaciones sigue funcionando porque conservamos el identificador de esa sección. Mover un elemento no obliga a cambiar su identificador. Pero borrarlo o escribirlo de otra manera sí puede romper el enlace que lo utiliza.
+
+Vamos a revisar la página con el teclado. Usen la tecla tabulador para avanzar por los enlaces y la tecla Intro para activar uno. Si hay un indicador visible alrededor del enlace seleccionado, no es un defecto del diseño. Nos ayuda a saber dónde estamos sin usar el ratón.
+
+Vamos a mirar una tarjeta completa. Primero encontramos una categoría, después su título y luego una explicación. Las tres tarjetas repetirán esa estructura. Repetir un patrón ayuda a comparar: sabemos dónde encontrar el nombre de cada recomendación y dónde leer sus detalles. No necesitamos que cada tarjeta cambie de orden para demostrar creatividad. La consistencia también puede hacer atractivo un diseño.
+
+El nombre de una clase lo elegimos nosotros. Podríamos llamarla tarjeta, recomendacion o ficha. Conviene que sea comprensible y que la escribamos siempre igual. Si en un lugar ponemos tarjeta y en otro tarjetas, son nombres diferentes. El navegador no interpreta que nos referimos al mismo grupo porque las palabras se parecen. Es una coincidencia exacta, no una conversación con contexto.
+
+Cuando añadimos destacada al primer artículo, conservamos tarjeta. Así expresamos dos cosas: pertenece al conjunto de recomendaciones y además queremos distinguirla. Más adelante, una regla compartirá el diseño básico y otra añadirá un detalle especial. Este sistema permite introducir variaciones pequeñas sin convertir cada elemento en un diseño completamente independiente que después cueste mantener.
+
+BLOQUE C
+Ahora intenten explicar el recorrido de la página sin mirar el código. Primero encontramos la presentación del club. Luego, sus enlaces. Después, las recomendaciones y los pasos para participar. Al final, el pie. Si pueden contar ese recorrido, ya están entendiendo su estructura.
+
+En pantalla vamos a localizar cada zona y después buscaremos un error: una recomendación que quedó fuera de main. La moveremos al lugar correcto y revisaremos que las etiquetas sigan cerrándose en orden. No necesitamos que el navegador proteste para detectar un documento mal organizado.
+
+Una comprobación útil consiste en leer los títulos de arriba abajo. Primero, el nombre del club. Después, Recomendaciones. Dentro, el nombre de cada tarjeta. Luego, Cómo participar. Ese recorrido tiene sentido porque los títulos describen niveles distintos. Si encontramos un subtítulo que no pertenece a ninguna sección clara, podemos revisar su lugar antes de decorar la página.
+
+También revisamos qué contenido merece ser independiente. Una recomendación con título y explicación puede entenderse por sí sola. Por eso usamos article en este proyecto. Un contenedor cuyo único trabajo es colocar juntas las tres recomendaciones no necesita fingir que tiene un tema nuevo. Para esa agrupación usamos div. Elegir entre ellos es una decisión sobre significado, no una competencia por usar etiquetas más complicadas.
+
+Les propongo una pregunta. Si queremos que las tres recomendaciones compartan el mismo diseño, ¿usamos tres identificadores iguales o una clase compartida? Una clase. El identificador distingue un lugar concreto; la clase puede agrupar varios elementos.
+
+Guarden esta versión, porque hemos terminado nuestra base de ache te eme ele. Ya no es una frase suelta en el editor: tenemos una pequeña página con secciones y contenido real.
+
+En la próxima lección entra ce ese ese. Por fin vamos a darle una identidad visual. Podemos hacerlo elegante, colorido o tranquilo. Lo único que no recomiendo es elegir todos los colores a la vez, aunque el selector de colores parezca estar retándonos. Hasta la próxima.
