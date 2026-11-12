@@ -171,3 +171,57 @@ Guarden esta versión. En la última lección vamos a probar la página completa
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
+LECCIÓN 8. PRUEBA FINAL: QUE SE VEA BIEN Y FUNCIONE
+
+BLOQUE A
+Hola, gente. Llegamos a la última lección. Empezamos con un Pen casi vacío y ahora tenemos un club digital con recomendaciones, enlaces, una portada y un diseño que cambia según el espacio. Hoy toca comprobar si todo eso funciona cuando dejamos de mirar únicamente las partes que nos salieron bonitas.
+
+Vamos a revisar en tres pasadas. Primero, contenido y estructura. Después, navegación e imágenes. Finalmente, presentación y adaptación. Revisarlo todo a la vez puede hacer que arreglemos el color de un borde y olvidemos que falta una recomendación entera.
+
+En la primera pasada buscamos un encabezado principal claro, secciones comprensibles y párrafos que expliquen algo concreto. Las tres recomendaciones deben tener títulos distintos y textos que ayuden a decidir. Recomendado porque sí tiene entusiasmo, pero poca información.
+
+En la segunda pasada probamos cada enlace. El de recomendaciones debe llevar a su sección y el de pasos a la suya. El enlace externo debe tener un destino correcto. Revisamos también la imagen y su texto alternativo. Después abrimos el enlace guardado del Pen en otra ventana para comprobar que compartimos la versión adecuada, con el código y el resultado disponibles.
+
+En la tercera pasada miramos colores, espacios, ancho y enfoque del teclado. Reducimos la ventana y aumentamos el zoom. Si algo falla, lo anotamos y corregimos una causa a la vez. Cambiar todo de golpe puede arreglar un problema y crear otros tres de regalo.
+
+Una buena revisión comienza con preguntas concretas. En lugar de decir se ve raro, podemos decir la segunda tarjeta no tiene el mismo fondo. Esa observación reduce el lugar donde vamos a buscar. Si todas las tarjetas fallan, quizá revisemos la regla compartida. Si solo falla una, examinaremos también las clases de ese elemento. La precisión al describir el problema facilita encontrar su causa.
+
+También conviene distinguir un fallo de una preferencia. Un enlace que no llega a su destino necesita corregirse. Un borde que preferiríamos un poco más redondeado es una decisión de diseño. Podemos mejorar ambos, pero no tienen la misma prioridad. Primero hacemos que la página funcione y se entienda. Después afinamos los detalles que le dan personalidad.
+
+BLOQUE B
+Vamos con tres errores preparados. El primero: el fondo no cambia como esperábamos. En el panel de ce ese ese hemos escrito mal el nombre de la propiedad que controla el fondo. Comparamos la línea con el ejemplo, corregimos la palabra y ejecutamos la vista previa. Ahora sí aparece el color. No hacía falta borrar todas las reglas para encontrar una letra incorrecta.
+
+Segundo error: la imagen no aparece. Revisamos el valor de src y descubrimos que copiamos solo una parte de su dirección. Recuperamos la dirección completa del ejercicio y volvemos a probar. La lección no es memorizar este fallo concreto, sino seguir una pregunta: ¿el navegador está intentando cargar un recurso que realmente existe y es accesible?
+
+Tercer error: una tarjeta no recibe el estilo común. Las otras dos sí. Eso nos da una pista. La hoja de estilos está conectada, porque algo sí está cambiando. Revisamos la clase de la tarjeta diferente y encontramos una letra que falta. Corregimos el nombre y probamos de nuevo.
+
+En los tres casos fuimos de una observación a una posible causa y después hicimos una prueba. Depurar consiste en eso: investigar de forma ordenada. No es mirar fijamente el código esperando que le dé vergüenza y se arregle solo.
+
+Ahora personalicen una recomendación. Cambien su título y su descripción, pero conserven una estructura clara. Después cambien el color de acento y revisen que siga siendo legible. Queremos comprobar que entienden qué controla el contenido y qué controla su apariencia.
+
+Cuando compartan el proyecto, guarden el Pen y copien su enlace de editor. Quien lo abra debe poder encontrar el código y el resultado. No envíen solo una captura: una imagen permite mirar, pero no probar cambios. Para conservar cada etapa, hagan una copia del ejercicio antes de continuar, de modo que el enlace de una lección no termine mostrando únicamente el resultado de la última.
+
+No hemos creado un sistema de cuentas, una tienda ni una aplicación con datos guardados. Hemos construido una página estática, que ya es una base útil. Saber qué hace nuestro proyecto también incluye saber qué funciones todavía no tiene.
+
+Cuando corregimos un error, repetimos la prueba que lo había mostrado. No basta con cambiar una letra y asumir que todo quedó arreglado. Volvemos a mirar el fondo, la imagen o la tarjeta afectada. Después comprobamos que el cambio no haya causado otro problema cercano. Esa pequeña verificación cierra el proceso y evita entregar una corrección que solo parecía correcta en el editor.
+
+Si no encontramos la causa enseguida, podemos reducir la prueba. Por ejemplo, aplicamos temporalmente un color muy diferente a una clase para comprobar si está siendo seleccionada. Si cambia, sabemos que la regla alcanza el elemento. Después restauramos el diseño elegido. No dejamos el color de diagnóstico como si fuera parte del proyecto, aunque por un momento la página parezca una señal de emergencia.
+
+También revisamos los enlaces compartidos. Guardar una versión y copiar su dirección no garantiza que hayamos elegido el ejercicio correcto. Abrimos el enlace y verificamos el título, el código y el resultado. En un curso con varias lecciones, esa comprobación evita que alguien abra la primera práctica y encuentre directamente el proyecto terminado sin entender cómo llegamos hasta allí.
+
+BLOQUE C
+Último desafío. Sin mirar las respuestas, piensen en estas cuatro preguntas. ¿Qué lenguaje organiza los títulos y párrafos? ¿Cuál controla los colores y espacios? ¿Qué atributo indica el destino de un enlace? ¿Qué usaríamos para dar el mismo estilo a varias tarjetas?
+
+Las respuestas son ache te eme ele, ce ese ese, href y una clase compartida. Si alguna no salió, vuelvan a ese ejemplo y hagan un cambio pequeño. Entenderlo mientras lo prueban sirve mucho más que repetir cuatro nombres de memoria.
+
+Para cerrar, miren la primera versión de la página y compárenla con la actual. No cambió por una función secreta. Cambió porque fuimos tomando decisiones pequeñas: organizar el contenido, enlazar recursos, elegir estilos, dar espacio y probar otros tamaños.
+
+Ahora pensemos en un cambio que podrían hacer sin seguir una instrucción exacta. Por ejemplo, transformar el club en una colección de reseñas de libros. Cambiarían títulos y descripciones en ache te eme ele. Ajustarían colores y espacios en ce ese ese. Podrían conservar las tarjetas, la navegación y la distribución adaptable. Eso demuestra que aprendieron una estructura reutilizable, no únicamente a copiar una página sobre música y juegos.
+
+Otro cambio sería añadir una cuarta recomendación. Crearíamos otro artículo con la clase compartida y su contenido. Después revisaríamos cómo se acomoda en la cuadrícula y cómo se lee en la vista estrecha. No prometeríamos que cualquier cantidad de contenido funciona sin mirar. Reutilizar una regla ahorra trabajo, pero no elimina la necesidad de comprobar el resultado.
+
+Lo siguiente puede ser una página sobre un equipo, un catálogo de dibujos, un club de lectura o una colección de reseñas. El tema cambia; muchas de las herramientas que aprendieron siguen siendo las mismas.
+
+Gracias por acompañarnos. Si su primer resultado no se parece exactamente al ejemplo, eso no significa que esté mal. Comprueben que se entienda, que funcione y que puedan explicar sus decisiones. Esa es una base mucho más valiosa que copiar una captura perfecta sin saber qué hay detrás.
+
+Guarden su proyecto, enseñen lo que hicieron y quédense con esta idea: una web deja de parecer una caja misteriosa cuando empiezan a construirla. Nos vemos en la próxima creación.
