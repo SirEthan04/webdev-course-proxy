@@ -113,7 +113,8 @@ BLOQUE A
 Buenas, gente. Nuestra página ya tiene contenido, enlaces y estructura. Ahora vamos a darle una apariencia que acompañe lo que cuenta. No basta con que algo se vea llamativo: también debe poder leerse. Si hace falta acercarse a la pantalla como detective para entender un párrafo, tenemos trabajo pendiente.
 Vamos al panel de ce ese ese del mismo Pen. En la modalidad clásica que estamos utilizando, CodePen conecta ese panel con nuestra vista previa. Escribiremos las reglas directamente allí. No necesitamos crear una carpeta, enlazar un archivo de nuestra computadora ni envolver las reglas con etiquetas de estilo.
 Mantendremos el contenido en el panel de ache te eme ele y las reglas visuales en el de ce ese ese. Si pegamos una regla en el lugar equivocado, no estamos indicando correctamente cómo debe aplicarse. Antes de cambiar cinco cosas porque no aparece un color, comprobaremos en qué panel estamos y si la vista previa está actualizada.
-
+Una regla de ce ese ese tiene un selector y un bloque de declaraciones entre llaves. El selector indica a qué elementos queremos afectar. Cada declaración contiene una propiedad y un valor, separados por dos puntos. El punto y coma separa las declaraciones.
+Vamos a seleccionar body. Le daremos un color de fondo oscuro y un color de texto claro. Después elegiremos una familia tipográfica sencilla y aumentaremos un poco la separación entre líneas. No necesitamos una fuente espectacular para mejorar la página. A veces el gran cambio es que las palabras tengan espacio para respirar.
 
 
 
