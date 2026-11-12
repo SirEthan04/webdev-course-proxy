@@ -106,6 +106,18 @@ Guarden esta versión, porque hemos terminado nuestra base de ache te eme ele. Y
 
 En la próxima lección entra ce ese ese. Por fin vamos a darle una identidad visual. Podemos hacerlo elegante, colorido o tranquilo. Lo único que no recomiendo es elegir todos los colores a la vez, aunque el selector de colores parezca estar retándonos. Hasta la próxima.
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+LECCION 5. AHORA SÍ, QUE TENGA PERSONALIDAD
+
+BLOQUE A
+Buenas, gente. Nuestra página ya tiene contenido, enlaces y estructura. Ahora vamos a darle una apariencia que acompañe lo que cuenta. No basta con que algo se vea llamativo: también debe poder leerse. Si hace falta acercarse a la pantalla como detective para entender un párrafo, tenemos trabajo pendiente.
+Vamos al panel de ce ese ese del mismo Pen. En la modalidad clásica que estamos utilizando, CodePen conecta ese panel con nuestra vista previa. Escribiremos las reglas directamente allí. No necesitamos crear una carpeta, enlazar un archivo de nuestra computadora ni envolver las reglas con etiquetas de estilo.
+Mantendremos el contenido en el panel de ache te eme ele y las reglas visuales en el de ce ese ese. Si pegamos una regla en el lugar equivocado, no estamos indicando correctamente cómo debe aplicarse. Antes de cambiar cinco cosas porque no aparece un color, comprobaremos en qué panel estamos y si la vista previa está actualizada.
+
+
+
+
+
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
